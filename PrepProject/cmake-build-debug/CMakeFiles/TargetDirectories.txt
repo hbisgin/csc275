@@ -1,0 +1,3 @@
+C:/CPPFiles/Winter24/PrepProject/cmake-build-debug/CMakeFiles/PrepProject.dir
+C:/CPPFiles/Winter24/PrepProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CPPFiles/Winter24/PrepProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
