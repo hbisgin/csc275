@@ -15,6 +15,7 @@ public:
         float xx = x - v2.getX();
         float yy = y - v2.getY();
         return Vector(xx,yy);
+
     }
 private:
     float x, y;
