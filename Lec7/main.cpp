@@ -17,6 +17,17 @@ public:
         return Vector(xx,yy);
 
     }
+
+//The operator below expects three parameters, therefore you will encounter an error
+/*
+    bool  operator == (Vector &v1, Vector &v2)
+  { 
+	if (v1.getX()==v2.getX() && v1.getX()==v2.getX())
+		return true;
+	else
+		return false;
+  }
+*/
 private:
     float x, y;
 
