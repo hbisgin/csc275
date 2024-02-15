@@ -17,7 +17,7 @@ public:
     //define your operator > here
     bool operator >(Profile const &p2);
     int & operator[](int index);
-    void displayArray(){cout<<name<<endl;}
+    void displayArray(){cout<<name<<endl;};
     friend ostream & operator<<(ostream &var, Profile p);
 
 private:
