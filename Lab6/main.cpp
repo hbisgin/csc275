@@ -3,6 +3,7 @@
 using namespace std;
 class Profile{
 public:
+    //Profile(){}//default
     Profile():name("Jane"), lastname("Doe"), age(18){}
     Profile(string iname, string ilastname, int iage):name(iname), lastname(ilastname), age(iage){}
     string getName(){return name;}
@@ -44,13 +45,11 @@ int main(){
 }
 void Twitter::ChangeProfile(string pname, string plastname, int page)
 {
-   /*
+
     TwProfile.setName(pname);
     TwProfile.setLastName(plastname);
     TwProfile.setAge(page);
-   */
 
-    TwProfile = Profile(pname, plastname, page);	
 }
 void Profile::setName(string pname)
 {

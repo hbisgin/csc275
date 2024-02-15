@@ -11,6 +11,8 @@ public:
     float getY()const{return y;}
     void setX(float xx){x=xx;}
     void display() const {cout<<x<<" "<<y<<endl;}
+    friend const Vector operator + (Vector const &v1, Vector const &v2);
+    Vector operator -(); //it's a member function
     Vector operator - (Vector const &v2){ //first parameter will be here.
         float xx = x - v2.getX();
         float yy = y - v2.getY();
@@ -35,9 +37,15 @@ private:
 //when you write a member fuction/overloaded operator, you skip the first parameter.
 //You deduct one parameter.
 const Vector operator + (Vector const &v1, Vector const &v2){
-    float xx = v1.getX() + v2.getX();
-    float yy = v1.getY() + v2.getY();
+    //float xx = v1.getX() + v2.getX();
+    //float yy = v1.getY() + v2.getY();
+    float xx = v1.x + v2.x;
+    float yy = v1.y + v2.y;
     return Vector(xx, yy);
+}
+
+Vector Vector::operator-() {
+    return Vector(-x, -y);
 }
 
 /*
@@ -75,6 +83,8 @@ int main() {
     Vector vector4 = vector1 - vector2;
     Vector vector5 = vector1 + 3; //because I have a constructor which takes only one parameter which was x.
     Vector vector6 = vector1 - 3;
+    Vector vector7 = -vector1;
+    vector7.display();
     vector5.display();
     vector3.display();
     vector4.display();
