@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1602728845 source:c:\cppfiles\lab13\main.cpp
+	<iostream>
+	"Student.h"
+	"UGrad.h"
+	"Grad.h"
+
+1602726705 source:c:\cppfiles\lab13\src\grad.cpp
+	"Grad.h"
+
+1602728825 source:c:\cppfiles\lab13\src\student.cpp
+	"Student.h"
+
+1602728825 source:c:\cppfiles\lab13\src\ugrad.cpp
+	"UGrad.h"
+

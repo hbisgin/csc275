@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1604598588 source:c:\cppfiles\lab18makeup\account.cpp
+	"Account.h"
+
+1604598562 c:\cppfiles\lab18makeup\account.h
+
+1604599163 source:c:\cppfiles\lab18makeup\src\savings.cpp
+	"Savings.h"
+
+1604599121 c:\cppfiles\lab18makeup\include\savings.h
+	"../Account.h"
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1604196385 source:c:\cppfiles\lec18prep\main.cpp
+	<iostream>
+	"Fruit.h"
+	"../src/Fruit.cpp"
+
+1604196385 c:\cppfiles\lec18prep\include\fruit.h
+
+1604196364 source:c:\cppfiles\lec18prep\src\fruit.cpp
+	"Fruit.h"
+
+1604196364 c:\cppfiles\lec18prep\src\fruit.cpp
+	"Fruit.h"
+

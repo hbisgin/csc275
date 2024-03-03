@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605033730 source:c:\cppfiles\lec20\main.cpp
+	<iostream>
+	"linkedlistheader.h"
+
+1605031570 c:\cppfiles\lec20\linkedlistheader.h
+

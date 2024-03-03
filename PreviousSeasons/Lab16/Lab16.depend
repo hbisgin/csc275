@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1603820899 source:c:\cppfiles\lab16\src\cartoon.cpp
+	"Cartoon.h"
+
+1603820946 c:\cppfiles\lab16\include\cartoon.h
+	"Movie.h"
+	<iostream>
+
+1603821313 c:\cppfiles\lab16\include\movie.h
+	<iostream>
+
+1603821231 source:c:\cppfiles\lab16\src\movie.cpp
+	"Movie.h"
+	<iostream>
+

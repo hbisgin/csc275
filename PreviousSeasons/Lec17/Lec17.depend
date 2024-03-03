@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603992282 source:c:\cppfiles\lec17\main.cpp
+	<iostream>
+	"funtemplate.h"
+
+1603992364 c:\cppfiles\lec17\funtemplate.h
+

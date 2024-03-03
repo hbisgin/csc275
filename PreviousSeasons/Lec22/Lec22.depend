@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605634444 source:c:\cppfiles\lec22\listtools.cpp
+	<iostream>
+	"listtools.h"
+
+1605634458 c:\cppfiles\lec22\listtools.h
+

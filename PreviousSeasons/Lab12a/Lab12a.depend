@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1602718374 source:c:\cppfiles\lab12a\src\vec.cpp
+	"Vec.h"
+
+1602718374 c:\cppfiles\lab12a\include\vec.h
+
+1602718439 source:c:\cppfiles\lab12a\main.cpp
+	<iostream>
+	<string>
+

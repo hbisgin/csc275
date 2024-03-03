@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1603817614 source:c:\cppfiles\lec16\src\dog.cpp
+	"Dog.h"
+	<iostream>
+
+1603817616 c:\cppfiles\lec16\include\dog.h
+	<iostream>
+	"Pet.h"
+
+1603817676 c:\cppfiles\lec16\include\pet.h
+	<iostream>
+
+1603817515 source:c:\cppfiles\lec16\src\pet.cpp
+	"Pet.h"
+	<iostream>
+

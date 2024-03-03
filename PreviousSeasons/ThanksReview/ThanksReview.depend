@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1606241519 source:c:\cppfiles\thanksreview\main.cpp
+	<iostream>
+	"CheckBookT.h"
+
+1606242809 c:\cppfiles\thanksreview\include\checkbookt.h
+	<iostream>
+

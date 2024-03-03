@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1603389861 source:c:\cppfiles\lab15\main.cpp
+	<iostream>
+	"Horse.h"
+	"Cat.h"
+
+1603389226 c:\cppfiles\lab15\include\horse.h
+	<iostream>
+	"Animal.h"
+
+1603388890 c:\cppfiles\lab15\include\animal.h
+	<iostream>
+
+1603389468 source:c:\cppfiles\lab15\src\animal.cpp
+	"Animal.h"
+	<iostream>
+
+1603389485 source:c:\cppfiles\lab15\src\horse.cpp
+	<iostream>
+	"Horse.h"
+
+1603389757 source:c:\cppfiles\lab15\src\cat.cpp
+	"Cat.h"
+	<iostream>
+
+1603389809 c:\cppfiles\lab15\include\cat.h
+	"Animal.h"
+
