@@ -33,10 +33,18 @@ int main() {
     //since i"m already done with ptr
     ptr = head; //head is not changed. I only let ptr know the address of the first node
 
+    ptr = search(head, 2);
+    if (ptr!=NULL)
+        cout<<ptr->getData()<<" has been found"<<endl;
+    else
+        cout<<"target can't be found"<<endl;
+
+    insertEnd(head, 100);
+
     cout<<"before removal"<<endl;
     displayList(head);
 
-    //removeNode(head, 3);
+    removeNode(head, 3); //head pointer, some target
 
     cout<<"after removal"<<endl;
     displayList(head);

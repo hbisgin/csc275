@@ -23,6 +23,7 @@ public:
 private:
     int data;
     IntNode * next;
+    //IntNode *back;
 };
 
 void insertHead(IntNode * &head , int thedata) //this function assumes there is at least one node in the list
@@ -50,5 +51,45 @@ void displayList(IntNode *start)
     }
 }
 
+IntNode * search(IntNode *head, int target)
+{
+    IntNode *here = head;
+    if (here==NULL)
+    {
+        return NULL;
+    }else{
+        while(here->getData()!=target && here->getLink()!=NULL)
+            here = here->getLink();
+        if (here->getData()==target)
+        {
+            return here;
+        }else{
+            return NULL;
+        }
+    }
+}
 
+void removeNode(IntNode * head, int data) //this function asssumes you have target in the list and target is not in the first node
+{
+    IntNode *before=head, *discard;
+    while(before->getLink()->getData()!=data) //before->[data|link]-[data|link]
+    {
+        before = before->getLink();
+    }
+    discard  = before->getLink(); //discard knows which node to be removed
+    before->setLink(discard->getLink());
+    delete discard; //this is the last step you have to take
+}
+
+void insertEnd(IntNode * &ptr, int theData)
+{
+   IntNode *mario = ptr; //assuming ptr is the head node
+   while(mario->getLink()!=NULL)
+   {
+       mario = mario->getLink();
+   }
+
+   cout<<mario->getData()<<endl;
+    mario->setLink(new IntNode (theData, NULL));
+}
 #endif //LEC19_LINKEDSTUFF_H
