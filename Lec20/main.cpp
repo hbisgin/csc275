@@ -49,5 +49,11 @@ int main() {
     cout<<"after removal"<<endl;
     displayList(head);
 
+    for (int i=0; i<5; i++)
+        insertHead(head, 10*i);
+
+    cout<<"after for loop"<<endl;
+    displayList(head);
+
     return 0;
 }
