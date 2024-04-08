@@ -20,4 +20,5 @@ private:
 };
 
 
+#include "Queue.cpp"
 #endif //LEC23_QUEUE_H
