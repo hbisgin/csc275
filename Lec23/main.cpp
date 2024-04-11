@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "Queue.h"
-#include "Queue.cpp"
 #include<deque>
 
 using namespace std;
